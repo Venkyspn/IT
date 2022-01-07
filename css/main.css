@@ -265,7 +265,8 @@
   transition: background 300ms ease-in-out;
 }
 
-hr {
-  background-color: rgba(75, 146, 238);
-  height: 2px;
+.line {
+  background-color: #ff4e45;
+  height: 1px;
 }
+
