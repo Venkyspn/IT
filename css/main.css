@@ -1,3 +1,7 @@
+.bg {
+  background-color: #cfffdc;
+}
+
 .button1 {
   box-shadow: 0 6px 12px rgba(16, 95, 185, 0.4);
   width: 220px;
@@ -269,4 +273,3 @@
   background-color: #ff4e45;
   height: 1px;
 }
-
