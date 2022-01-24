@@ -1,1 +1,13 @@
 
+.box-txt {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #484848;
+  padding: 20px;
+  margin-top: -25px;
+}
+.box-icon {
+  padding: 20px;
+  margin-top: -36px;
+  width: 90px;
+}
