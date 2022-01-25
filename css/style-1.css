@@ -782,13 +782,9 @@ ul {
   height: 42px;
   padding: 14px;
   color: white;
-  margin-top: -64px;
-  margin-right: 15px;
+  margin-top: -35px;
   text-decoration: none;
   float: right;
-}
-.fa-arrow-up.clear both {
-  position: fixed;
 }
 
 .fa-arrow-up:hover {
