@@ -277,11 +277,10 @@
 .button11 {
   width: 150px;
   height: 35px;
-  background-color: #bd63f8;
+  background-color: #c9e6d1;
   border-radius: 30px;
   padding: 8px 15px;
-  border: solid 2px;
-
+  border: solid 2px #ff002d;
   margin-left: 10px;
   margin-right: 10px;
   font-family: "Good Times", sans-serif;
