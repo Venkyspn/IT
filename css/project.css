@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.p1 {
+  background-color: lightskyblue;
+  height: 10%;
+  width: 30%;
+  border-radius: 500px;
+}
+.para1 {
+  text-align: left;
+  line-height: 30px;
+  margin-top: 90px;
+}
+.Project2 {
+  background-color: lightskyblue;
+  height: 10%;
+  width: 30%;
+  border-radius: 300px;
+  text-align: left;
+  line-height: 10px;
+}
+.line {
+  background-color: #ff4e45;
+  margin-left: 10px !important;
+}
+.pt {
+  float: left;
+  margin-right: 20px;
+}

@@ -1,0 +1,54 @@
+.Green {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  position: relative;
+  bottom: 0px;
+  display: inline-block;
+}
+.Red {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: absolute;
+  top: 200px;
+  left: 210px;
+  display: inline-block;
+}
+.Yellow {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  position: relative;
+  bottom: -205px;
+  left: 405px;
+  display: inline-block;
+}
+.pink {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(228, 17, 122);
+  position: absolute;
+  bottom: -260px;
+  left: 615px;
+  display: inline-block;
+}
+.whatsapp {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 40px;
+  right: 30px;
+}
+.h1 {
+  color: #66bfbf;
+  line-height: 60px;
+}
+.h2 {
+  color: #66bfbf;
+  font-weight: normal;
+}
+.ud {
+  color: #66bfbf;
+  text-decoration: underline;
+}
