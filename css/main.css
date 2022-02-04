@@ -273,3 +273,30 @@
   background-color: #ff4e45;
   height: 1px;
 }
+
+.button11 {
+  width: 150px;
+  height: 35px;
+  background-color: #bd63f8;
+  border-radius: 30px;
+  padding: 8px 15px;
+  border: solid 2px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Good Times", sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 0.0625rem;
+  margin-top: 1.5625rem;
+  cursor: pointer;
+  text-transform: capitalize !important;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  top: 20px;
+  right: 30px;
+}
