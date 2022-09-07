@@ -14,26 +14,7 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/favicon-2.png" />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="144x144"
-      href="images/ico/apple-touch-icon-144-precomposed.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="114x114"
-      href="images/ico/apple-touch-icon-114-precomposed.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="72x72"
-      href="images/ico/apple-touch-icon-72-precomposed.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      href="images/ico/apple-touch-icon-57-precomposed.png"
-    /></head
+    <link rel="shortcut icon" href="images/ico/favicon.ico" /></head
   ><!--/head-->
 
   <body>
@@ -43,16 +24,105 @@
           <div class="navbar-header">
             <a class="navbar-brand" href=""></a>
           </div>
-          <div class="collapse navbar-collapse">
+          <div class="dropdown">
+            <button class="dropbtn"><i class="icon-home"></i></button>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Expert</button>
+            <div class="dropdown-content">
+              <a
+                href="https://unitedscientificforum.com/vaccines/2023/committee.php"
+                target="_blank"
+                >Committee Members</a
+              >
+              <a
+                href="https://unitedscientificforum.com/vaccines/2023/speakers.php"
+                target="_blank"
+                >Speakers</a
+              >
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Abstracts</button>
+            <div class="dropdown-content">
+              <a
+                href="https://unitedscientificforum.com/vaccines/2023/call-for-abstracts.php"
+                target="_blank"
+                >Call For Abstracts</a
+              >
+              <a
+                href="https://unitedscientificforum.com/vaccines/2023/abstract-submission.php"
+                target="_blank"
+                >Abstract Submission</a
+              >
+              <a
+                href="https://unitedscientificforum.com/vaccines/2023/guidelines.php"
+                target="_blank"
+                >Guidelines</a
+              >
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Register</button>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Partners</button>
+            <div class="dropdown-content">
+              <a
+                href="https://unitedscientificforum.com/vaccines/2023/mediapartners.php"
+                target="_blank"
+                >Media Partners</a
+              >
+              <a
+                href="https://unitedscientificforum.com/vaccines/2023/sponsors.php"
+                target="_blank"
+                >Sponsors</a
+              >
+              <a
+                href="https://unitedscientificforum.com/vaccines/2023/exhibitors.php"
+                target="_blank"
+                >Exhibitors</a
+              >
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Agenda</button>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Contact Us</button>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Venue</button>
+          </div>
+          <!-- <div class="collapse navbar-collapse dropdown-content">
             <ul class="nav navbar-nav">
               <li class="active">
                 <a
                   href="https://unitedscientificforum.com/vaccines/2023/"
-                  target="_blank"
-                  ><i class="icon-home"></i
+                  target="_blank"><i class="icon-home"></i
                 ></a>
               </li>
               <li>
+                
+                <div class="dropdown-content">
+                  <a href="https://unitedscientificforum.com/vaccines/2023/"
+                    >Link 1</a
+                  >
+                  <a href="https://unitedscientificforum.com/vaccines/2023/"
+                    >Link 2</a
+                  >
+                  <a href="https://unitedscientificforum.com/vaccines/2023/"
+                    >Link 3</a
+                  >
+                </div>
+
                 <a
                   href="https://unitedscientificforum.com/vaccines/2023/"
                   target="_blank"
@@ -102,11 +172,50 @@
                 >
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </header>
+
     <!--/#header-->
+    <!--<nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="https://unitedscientificforum.com/vaccines/2023/" target="_blank">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>-->
+
     <section id="main-slider" class="carousel">
       <div class="carousel-inner">
         <div class="item active">
@@ -191,6 +300,7 @@
         </div>
       </div>
     </section>
+
     <!--/#pricing-->
 
     <section id="pricing">
@@ -216,6 +326,7 @@
                 <li class="plan-action">
                   <a
                     href="https://unitedscientificforum.com/vaccines/2023/registration.php"
+                    target="_blank"
                     class="btn btn-primary btn-lg"
                     >Signup</a
                   >
@@ -271,7 +382,9 @@
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="single-footer-widget">
               <div class="logo">
-                <a href="https://unitedscientificforum.com/vaccines/2023/"
+                <a
+                  href="https://unitedscientificforum.com/vaccines/2023/"
+                  target="_blank"
                   ><img src="images/white-logo.png" alt="image" class="logoimg"
                 /></a>
                 <div
@@ -432,6 +545,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jmain.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
