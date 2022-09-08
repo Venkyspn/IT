@@ -329,6 +329,7 @@ a:focus {
   padding: 15px 0;
   font-size: 18px;
   font-weight: 700;
+  margin-top: -55px;
 }
 #pricing .plan li.plan-price {
   color: #666;
@@ -473,11 +474,11 @@ a:focus {
   border-radius: 0 0 0 5px;
 }
 .navbar-default .navbar-brand {
-  margin-right: 50px;
-  margin-left: 20px;
-  width: 200px;
+  /* margin-right: 50px;
+  margin-left: 20px; */
+  width: 135px;
   height: 78px;
-  background: url(../images/logo-7.png) no-repeat 0 50%;
+  /* background: url(../images/logo-7.png) no-repeat 0 50%; */
 }
 .navbar-default .navbar-nav > li {
   margin-left: 1px;
@@ -803,8 +804,49 @@ a:hover {
   padding: 6px;
   width: 37%;
   border-radius: 30px;
-  margin: auto;
+  margin-top: 30px;
+  margin-left: 355px;
   border: solid 2px #c2c2c2;
 }
-
-
+.logoimg {
+  width: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  image-rendering: -webkit-optimize-contrast;
+}
+.btnnavbrochure {
+  background-color: rgb(43 114 134 / 28%);
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 11px 22px;
+  color: #ffffff;
+  margin-right: 8px;
+  border: solid 1.5px #bebebe;
+}
+.btnnavbrochure:hover {
+  background-color: #005166;
+  color: #ffe69a;
+}
+.btnreg {
+  background-color: #005166;
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 11px 22px;
+  line-height: 1.33;
+  color: white;
+}
+.btnreg:hover {
+  background-color: #428bca;
+  color: white;
+}
+.zash-nav .navbar .navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.logoimg {
+  image-rendering: -webkit-optimize-contrast;
+  margin: -18px;
+  margin-left: 0px;
+}
