@@ -56,6 +56,7 @@ a:focus {
   background-repeat: no-repeat;
   padding: 85px 0;
   color: #fff;
+  padding-bottom: 70px;
 }
 #main-slider .item {
   -moz-transition: opacity ease-in-out 500ms;
@@ -849,4 +850,10 @@ a:hover {
   image-rendering: -webkit-optimize-contrast;
   margin: -18px;
   margin-left: 0px;
+}
+.mainbtn {
+  background: #ff8b00;
+  border-radius: 25px;
+  padding: 7px 18px;
+  border: solid 2px #fff;
 }
